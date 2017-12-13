@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../compiled/flipclock.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="../compiled/flipclock.js"></script>
+	</head>
+	<body>
+	<div class="clock" style="margin:2em;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
+		var clock;
+
+		$(document).ready(function() {
+			var clock;
+
+			clock = $('.clock').FlipClock({
+		        	stop: function() {
+		        		$('.message').html('The clock has stopped!')
+		        	}
+		        }
+		    });
+            var date = new Date(2018, 0, 27, 17, 30, 0);
+            var now = new Date();
+            var diff = (date.getTime()/1000) - (now.getTime()/1000);
+
+
+		    clock.setTime(diff);
+		    clock.setCountdown(true);
+		    clock.start();
+
+		});
+	</script>
+
+	</body>
+</html>
