@@ -630,6 +630,14 @@
             margin-top: 250px;
             padding: 250px;
         }
+        .banniere_mobile_gala
+        {
+            display: none;
+        }
+        .banniere_mobile_icam
+        {
+            display: none
+        }
         .banniere
         {
             margin-top: 200px;
@@ -683,6 +691,14 @@
             .fnt_parallax
             {
                 display: none;
+            }
+            .banniere_mobile_gala
+            {
+                display: inline-block;
+            }
+            .banniere_mobile_icam
+            {
+                display: inline-block;
             }
         }
     /* FIN VIDEO + BANNIERE */
