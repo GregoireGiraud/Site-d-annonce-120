@@ -523,6 +523,7 @@
         flex-direction: column;
 
         margin: 0px 2%;
+        padding: 0px 3px;
         min-width: 150px;
         max-width: 50%;
 
@@ -544,7 +545,14 @@
         color: blue !important ;
         font-size: 50px !important ;
     }
-    @media screen and (max-width: 800px)
+    @media (max-width: 1400px)
+    {
+        .titre_descriptif
+        {
+            font-size: 2.5em;
+        }
+    }
+    @media all and (max-width: 1000px)
     {
         .descriptifs
         {
@@ -557,7 +565,7 @@
         {
             min-width: 200px;
             max-width: 100%;
-            margin: 10px 0;
+            margin: 10px 0px;
             padding: 0px 10px;
         }
     }
