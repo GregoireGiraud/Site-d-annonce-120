@@ -23,3 +23,29 @@
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
+
+
+/* ---------- Css pour le decompte ----------*/
+.numbers .bloc {
+    width: 97px;
+    height: 67px;
+    background: url(../img/number.png) no-repeat;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    color: #767676;
+    margin-right: 30px; }
+    .numbers .bloc strong {
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      display: block;
+      color: #2a3c49;
+      margin-bottom: 15px; }
+  .numbers .last {
+    margin-right: 0px; }
+  .numbers {
+    overflow: hidden;
+    *zoom: 1;
+    margin-top: 40px; }

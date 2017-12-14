@@ -1,79 +1,32 @@
-/*
-Author: Robert Hashemian
-http://www.hashemian.com/
+jQuery(function($){
 
-Use of this code is hereby granted to anyone. No attribution is required.
-********************************************************
-Usage Sample:
+    var launch = new Date(2018,0,27,17,30,00); // Janvier == 0
+    var days = $('#days');
+    var hours = $('#hours');
+    var minutes = $('#minutes');
+    var seconds = $('#seconds');
 
-<script language="JavaScript">
-TargetDate = "12/31/2020 5:00 AM";
-BackColor = "palegreen";
-ForeColor = "navy";
-CountActive = true;
-CountStepper = -1;
-LeadingZero = true;
-DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-FinishMessage = "It is finally here!";
-</script>
-<script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
-*/
+    setDate();
+    function setDate(){
+        var now = new Date();
+        var s = ((launch.getTime() - now.getTime())/1000) - now.getTimezoneOffset()*60;
+        if(s < 0 ) s = 0;
+        var d = Math.floor(s/86400);
+        days.html('<strong>'+d+'</strong>Jour'+(d>1?'s':''));
+        s -= d*86400;
 
-function calcage(secs, num1, num2) {
-  s = ((Math.floor(secs/num1))%num2).toString();
-  if (LeadingZero && s.length < 2)
-    s = "0" + s;
-  return "<b>" + s + "</b>";
-}
+        var h = Math.floor(s/3600);
+        hours.html('<strong>'+h+'</strong>Heure'+(h>1?'s':''));
+        s -= h*3600;
 
-function CountBack(secs) {
-  if (secs < 0) {
-    document.getElementById("cntdwn").innerHTML = FinishMessage;
-    return;
-  }
-  DisplayStr = DisplayFormat.replace(/%%D%%/g, calcage(secs,86400,100000));
-  DisplayStr = DisplayStr.replace(/%%H%%/g, calcage(secs,3600,24));
-  DisplayStr = DisplayStr.replace(/%%M%%/g, calcage(secs,60,60));
-  DisplayStr = DisplayStr.replace(/%%S%%/g, calcage(secs,1,60));
+        var m = Math.floor(s/60);
+        minutes.html('<strong>'+m+'</strong>Minute'+(m>1?'s':''));
+        s -= m*60;
 
-  document.getElementById("cntdwn").innerHTML = DisplayStr;
-  if (CountActive)
-    setTimeout("CountBack(" + (secs+CountStepper) + ")", SetTimeOutPeriod);
-}
+        s = Math.floor(s);
+        seconds.html('<strong>'+s+'</strong>Seconde'+(s>1?'s':''));
 
-function putspan(backcolor, forecolor) {
- document.write("<span id='cntdwn' style='background-color:" + backcolor +
-                "; color:" + forecolor + "'></span>");
-}
+        setTimeout(setDate,1000);
+    }
 
-if (typeof(BackColor)=="undefined")
-  BackColor = "white";
-if (typeof(ForeColor)=="undefined")
-  ForeColor= "black";
-if (typeof(TargetDate)=="undefined")
-  TargetDate = "12/31/2020 5:00 AM";
-if (typeof(DisplayFormat)=="undefined")
-  DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-if (typeof(CountActive)=="undefined")
-  CountActive = true;
-if (typeof(FinishMessage)=="undefined")
-  FinishMessage = "";
-if (typeof(CountStepper)!="number")
-  CountStepper = -1;
-if (typeof(LeadingZero)=="undefined")
-  LeadingZero = true;
-
-
-CountStepper = Math.ceil(CountStepper);
-if (CountStepper == 0)
-  CountActive = false;
-var SetTimeOutPeriod = (Math.abs(CountStepper)-1)*1000 + 990;
-putspan(BackColor, ForeColor);
-var dthen = new Date(TargetDate);
-var dnow = new Date();
-if(CountStepper>0)
-  ddiff = new Date(dnow-dthen);
-else
-  ddiff = new Date(dthen-dnow);
-gsecs = Math.floor(ddiff.valueOf()/1000);
-CountBack(gsecs);
+});
