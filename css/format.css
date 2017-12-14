@@ -678,6 +678,13 @@
                 height: 180px;
            }
         }
+        @media (max-width: 480px)
+        {
+            .fnt_parallax
+            {
+                display: none;
+            }
+        }
     /* FIN VIDEO + BANNIERE */
 
     /* DEBUT AFFICHES */
