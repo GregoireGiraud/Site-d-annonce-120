@@ -696,10 +696,13 @@
             {
                 display: inline-block;
                 width: 100%;
+                margin: 40px 0px;
             }
             .banniere_mobile_icam
             {
                 display: inline-block;
+                margin: 40px 0px;
+                width:100%;
             }
         }
     /* FIN VIDEO + BANNIERE */
