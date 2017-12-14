@@ -571,6 +571,8 @@
             max-width: 100%;
             margin: 10px 0px;
             padding: 0px 10px;
+
+            font-size: 0.8em;
         }
     }
     @media all and(max-device-width: 480px)
