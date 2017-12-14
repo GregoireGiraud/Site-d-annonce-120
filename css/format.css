@@ -460,7 +460,7 @@
     }
     .disabled
     {
-        color: grey;
+        color: #c2c2d6;
     }
 
 
@@ -910,7 +910,8 @@
 }
 footer
 {
-    height: 165px;
+    height: 180px;
+    padding-bottom: 15px;
 
     background-color: black;
     color:white;
