@@ -695,10 +695,13 @@
             .banniere_mobile_gala
             {
                 display: inline-block;
+                width: 500px;
+                height: 195px;
             }
             .banniere_mobile_icam
             {
                 display: inline-block;
+                width:100%;
             }
         }
     /* FIN VIDEO + BANNIERE */
