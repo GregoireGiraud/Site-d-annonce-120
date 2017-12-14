@@ -574,6 +574,10 @@
 
             font-size: 0.8em;
         }
+        .corps_descriptif
+        {
+            line-height: 30px;
+        }
     }
     @media all and(max-device-width: 480px)
     {
