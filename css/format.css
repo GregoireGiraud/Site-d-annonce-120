@@ -457,7 +457,10 @@
 
         color: white;
     }
-
+    .disabled
+    {
+        color: grey;
+    }
 
 
     @media all and (max-width: 850px)
