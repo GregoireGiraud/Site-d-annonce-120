@@ -325,7 +325,16 @@
         width:100%;
         padding: none;
     }
+    .countdown_banner
+    {
+        position: absolute;
+        top:500px;
+        left:150px;
 
+        display: inline-block;
+        width:700px;
+        height:250px;
+   }
     @media (max-width: 650px)
     {
         .c_a_r
@@ -429,7 +438,7 @@
         margin: 5px 10px;
 
         line-height: 100px;
-        background-color: #8c8c8c;
+        background-color: #cc2900;
 
         box-shadow: 2px 2px 5px black;
     }
@@ -461,6 +470,8 @@
     .disabled
     {
         color: #c2c2d6;
+        background-color: #8c8c8c;
+
     }
 
 
