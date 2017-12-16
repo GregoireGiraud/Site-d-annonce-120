@@ -657,7 +657,19 @@
         .video
         {
             display:inline-block;
-            margin: 0 25%;
+            margin: 0 23%;
+        }
+        @media (min-width: 1800px)
+        {
+            .video_yt
+            {
+                width:1000px;
+                height:575px;
+            }
+            .video
+            {
+                margin: 0% 23%;
+            }
         }
         @media (max-width: 1250px)
         {
