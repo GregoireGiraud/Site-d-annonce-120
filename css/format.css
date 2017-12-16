@@ -54,6 +54,12 @@
         src: url('Police/chivilcoyana-beta-v1.2.ttf') format('truetype'),
         url('Police/chivilcoyana-beta-v1.2.eot') format('eot');
     }
+    @font-face
+    {
+        font-family: 'everafter';
+        src: url('Police/everafter.ttf') format('truetype'),
+        url('Police/everafter.eot') format('eot');
+    }
     .material-icons.md-18 { font-size: 18px; }
     .material-icons.md-24 { font-size: 24px; }
     .material-icons.md-36 { font-size: 36px; }
@@ -249,15 +255,34 @@
 
         /* border: 1px red solid; */
     }
+    .cnc_banner
+    {
+        position: absolute;
+        top:75px;
+        left: 0px;
+        width:100%;
+    }
+    @media (max-width:1000px)
+    {
+        .cnc_banner
+        {
+            display: none;
+        }
+        section#gala article
+        {
+            background-color: #000066;
+            padding-bottom: 80px;
+        }
+    }
     .presentation
     {
         /*margin-top: 6%; */
-        padding-bottom: 80px;
         padding-top: 0px;
 
         text-align: center;
 
-        background-color: #000066;
+        /*background-color: #000066;*/
+        background-color: white;
         color: white;
 
         /* border: 10px red double; */
@@ -307,10 +332,37 @@
         flex-direction: column;
         justify-content: center;
 
+        padding-top: 200px;
         margin:auto;
         width: 666px;
-
-        /* border: 1px red solid; */
+    }
+    @media (max-width: 1700px)
+    {
+        .bandeau_rebours
+        {
+            padding-top: 100px;
+        }
+    }
+    @media (max-width: 1550px)
+    {
+        .bandeau_rebours
+        {
+            padding-top: 0px;
+        }
+    }
+    @media (max-width: 1400px)
+    {
+        .presentation
+        {
+            padding-bottom: 40px;
+        }
+    }
+    @media (max-width: 1200px)
+    {
+        .presentation
+        {
+            padding-bottom: 40px;
+        }
     }
     /*.count_color
     {
@@ -359,7 +411,6 @@
         {
             font-size:1em;
         }
-
     }
 
     /* Ancien countdown
@@ -471,7 +522,6 @@
     {
         color: #c2c2d6;
         background-color: #8c8c8c;
-
     }
 
 
