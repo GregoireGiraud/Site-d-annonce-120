@@ -97,7 +97,7 @@
     .bouton_navigation:hover
     {
         font-size: 1.05em;
-        background-color: #000080;
+        background-color: #06203b;
     }
     a
     {
@@ -258,7 +258,7 @@
         }
         section#gala article
         {
-            background-color: #000066;
+            background-color: #06203b;
             padding-bottom: 80px;
         }
     }
