@@ -164,6 +164,26 @@
         {
             padding: 0 20px;
         }
+        .Index
+        {
+            line-height: 50px;
+        }
+        .deuxl
+        {
+            line-height: 25px;
+        }
+        .bouton_navigation .amontillado
+        {
+            font-size:4em;
+        }
+        .logo
+        {
+            height: 50px;
+        }
+        nav
+        {
+            height:50px;
+        }
     }
     @media (max-width: 525px)
     {
@@ -387,12 +407,24 @@
             font-size:1.5em;
         }
     }
+    @media (max-width: 500px)
+    {
+        .c_a_r
+        {
+            margin:0 5%;
+        }
+        .titre_presentation
+        {
+            margin-bottom: 20px;
+
+            font-size:1.2em;
+        }
+    }
     @media (max-width: 400px)
     {
         .c_a_r
         {
             margin:0 0%;
-            width:50%;
         }
         .titre_presentation
         {
