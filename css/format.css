@@ -120,7 +120,8 @@
         line-height: 75px;
         white-space: nowrap;
 
-        font-size:1.5em;
+        font-size:2.5em;
+        font-family: 'ARBLANCA';
     }
     .logo
     {
@@ -309,11 +310,17 @@
         font-size: 3em;
 
     }
-    .cac_champagne
+    .everafter
     {
-        font-family: 'arblanca';
+        font-family: 'everafter';
         font-weight: normal;
-        font-size: 2.5em;
+        font-size: 4.5em;
+    }
+    .everafter2
+    {
+        font-family: 'everafter';
+        font-weight: normal;
+        font-size: 3.5em;
     }
     .titre_presentation
     {
