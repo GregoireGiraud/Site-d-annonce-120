@@ -310,13 +310,13 @@
         font-size: 3em;
 
     }
-    .everafter
+    h1[class="everafter"]
     {
         font-family: 'everafter';
         font-weight: normal;
         font-size: 4.5em;
     }
-    .everafter2
+    h1[class="everafter2"]
     {
         font-family: 'everafter';
         font-weight: normal;
