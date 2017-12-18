@@ -1,0 +1,17 @@
+diff a/css/format.css b/css/format.css	(rejected hunks)
+@@ -312,13 +312,13 @@
+     }
+     h1[class="everafter"]
+     {
+-        font-family: 'everafter';
++        font-family: 'Everafter';
+         font-weight: normal;
+         font-size: 4.5em;
+     }
+     h1[class="everafter2"]
+     {
+-        font-family: 'everafter';
++        font-family: 'Everafter';
+         font-weight: normal;
+         font-size: 3.5em;
+     }
