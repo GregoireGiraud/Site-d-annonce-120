@@ -37,15 +37,15 @@
     }
     @font-face
     {
-        font-family: 'chivilcoyana';
-        src: url('Police/chivilcoyana-beta-v1.2.ttf') format('truetype'),
-        url('Police/chivilcoyana-beta-v1.2.eot') format('eot');
+        font-family: 'Everafter';
+        src: url('Police/everafter.ttf') format('truetype')
+        url('Police/everafter.eot') format('eot');
     }
     @font-face
     {
-        font-family: 'everafter';
-        src: url('Police/everafter.ttf') format('truetype'),
-        url('Police/everafter.eot') format('eot');
+        font-family: 'chivilcoyana';
+        src: url('Police/chivilcoyana-beta-v1.2.ttf') format('truetype'),
+        url('Police/chivilcoyana-beta-v1.2.eot') format('eot');
     }
     .material-icons.md-18 { font-size: 18px; }
     .material-icons.md-24 { font-size: 24px; }
@@ -312,13 +312,13 @@
     }
     h1[class="everafter"]
     {
-        font-family: 'everafter';
+        font-family: 'Everafter';
         font-weight: normal;
         font-size: 4.5em;
     }
     h1[class="everafter2"]
     {
-        font-family: 'everafter';
+        font-family: 'Everafter';
         font-weight: normal;
         font-size: 3.5em;
     }
