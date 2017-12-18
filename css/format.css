@@ -41,6 +41,12 @@
         src: url('Police/chivilcoyana-beta-v1.2.ttf') format('truetype'),
         url('Police/chivilcoyana-beta-v1.2.eot') format('eot');
     }
+    @font-face
+    {
+        font-family: 'everafter';
+        src: url('Police/EVERAFTE.ttf') format('truetype'),
+        url('Police/EVERAFTE.eot') format('eot');
+    }
     .material-icons.md-18 { font-size: 18px; }
     .material-icons.md-24 { font-size: 24px; }
     .material-icons.md-36 { font-size: 36px; }
@@ -302,16 +308,6 @@
         font-weight: normal;
         font-size: 3em;
     }
-    .gala
-    {
-        font-weight: normal;
-        font-size: 4.5em;
-    }
-    .date
-    {
-        font-weight: normal;
-        font-size: 3.5em;
-    }
     .titre_presentation
     {
         margin-bottom: 50px;
@@ -322,13 +318,20 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .titre_presentation .dancing
+    .titre_presentation .gala, .titre_presentation .date
     {
         margin-top: 0px ;
+        font-weight: normal;
     }
-    .titre_presentation .cac_champagne
+    .titre_presentation .gala
     {
-        margin-top: 0px;
+        font-family: 'everafter';
+        font-size: 4em;
+    }
+    .titre_presentation .date
+    {
+        font-family:  'everafter';
+        font-size: 3.5em;
     }
     .bandeau_rebours
     {
