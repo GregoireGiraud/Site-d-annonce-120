@@ -152,7 +152,7 @@
         }
         .deuxl
         {
-            line-height: 37.5px
+            line-height: 37.5px;
         }
     }
     @media (max-width: 675px)
