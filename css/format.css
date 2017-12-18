@@ -317,14 +317,19 @@
     {
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     .titre_presentation .gala, .titre_presentation .date
     {
         margin-top: 0px ;
+        margin-bottom: 0px;
         font-weight: normal;
     }
     .titre_presentation .gala
     {
+        padding-top: 0px;
+
+        line-height: 150px;
         font-family: 'dancing in the rainbow';
         font-size: 3.7em;
     }
