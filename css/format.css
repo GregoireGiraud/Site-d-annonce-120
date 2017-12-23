@@ -929,6 +929,177 @@
     /*FIN AFFICHES */
 /* FIN THEME */
 
+/* DEBUT CONFERENCE */
+
+    .titre_conference
+    {
+        margin-top: 25px;
+        color: black;
+    }
+    .lja
+    {
+        display: flex;
+        flex-direction: row;
+
+        margin: 0% 10%;
+    }
+    .sujet_conference
+    {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+    .gt
+    {
+        color: #D43F34;
+    }
+    .red_conf
+    {
+        font-weight: none;
+        color: #D43F34;
+    }
+    strong
+    {
+        font-weight: none;
+    }
+    .logo_lja
+    {
+        /*margin-top: 60px;*/
+        width: 300px;
+        height: 300px;
+    }
+    .text_aside_conference
+    {
+        margin: 50px 5%;
+
+        font-size: 1.5em;
+        text-align: justify;
+    }
+    .bann_conf_container
+    {
+        display:flex;
+        justify-content: center;
+        border: 0 10%;
+    }
+    .banniere_conf
+    {
+        border-left: 10%;
+        width: 80%;
+    }
+    .semi_titre_conference
+    {
+        margin-top: 2%;
+        margin-bottom: 40px;
+        font-size: 1.8em;
+    }
+    .text_conference
+    {
+        margin: 0% 5%;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+    .teasing
+    {
+        margin-top: 50px;
+
+        color: #D43F34;
+        font-size: 1.8em;
+        text-align: left;
+    }
+    #infos .fnt_parallax, #conference .fnt_parallax
+    {
+        margin-top: 100px;
+    }
+    @media (max-width:1500px)
+    {
+        .text_aside_conference
+        {
+            font-size: 1.4em;
+        }
+    }
+    @media (max-width: 1300px)
+    {
+        .lja
+        {
+            margin: 0% 5%;
+        }
+        .text_aside_conference
+        {
+            margin: 50px 3%;
+        }
+    }
+    @media (max-width: 1225px)
+    {
+        .titre_conference
+        {
+            font-size: 4em;
+        }
+    }
+    @media (max-width: 1100px)
+    {
+        .lja
+        {
+            margin: 0% 3%;
+        }
+        .text_aside_conference
+        {
+            margin: 50px 2%;
+            font-size: 1.3em;
+        }
+    }
+    @media (max-width: 1000px)
+    {
+        .lja
+        {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .text_aside_conference
+        {
+            margin: 30px 10%;
+            font-size: 1.5em;
+        }
+    }
+    @media (max-width: 950px)
+    {
+        .titre_conference
+        {
+            font-size: 3em;
+            margin-top: 0px;
+        }
+    }
+    @media (max-width: 750px)
+    {
+        .text_aside_conference
+        {
+            margin: 30px 4%;
+        }
+        .sujet_conference
+        {
+            font-size: 1.1em;
+        }
+        .titre_conference
+        {
+            font-size: 2.5em;
+        }
+        .teasing
+        {
+            margin-top: 25px;
+        }
+    }
+    @media (max-width: 615px)
+    {
+        .text_aside_conference
+        {
+            margin: 30px 1%;
+        }
+        .sujet_conference
+        {
+            font-size: 1.1em;
+        }
+    }
+/* FIN CONFERENCE
+
 /* DEBUT INFOS PRATIQUES */
 
     /*DEBUT TABLEAUX */
