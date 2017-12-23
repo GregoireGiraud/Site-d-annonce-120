@@ -136,6 +136,13 @@
     {
         display: none
     }
+    @media (max-width: 1200px)
+    {
+        .navbar_presentation
+        {
+            display: none;
+        }
+    }
     @media (max-width: 950px)
     {
         .navpc
@@ -673,7 +680,7 @@
             margin: 10px 0;
         }
     }
-/*FIN DESCRIPTIF */
+/* FIN DESCRIPTIF */
 
 /* DEBUT THEME */
 
