@@ -1101,6 +1101,19 @@
         {
             font-size: 1.1em;
         }
+        .semi_titre_conference
+        {
+            font-size:1.6em;
+            text-align: left;
+        }
+    }
+    @media (max-width: 400px)
+    {
+        .semi_titre_conference
+        {
+            font-size: 1.5em;
+            text-align: left;
+        }
     }
 /* FIN CONFERENCE */
 
