@@ -112,7 +112,6 @@
     {
         display:flex;
         flex-direction: row;
-        overflow: wrap;
     }
     .Index
     {
@@ -390,7 +389,6 @@
         z-index: 0;
 
         width:100%;
-        padding: none;
     }
     .countdown_banner
     {
@@ -666,7 +664,7 @@
             line-height: 30px;
         }
     }
-    @media all and(max-device-width: 480px)
+    @media all and (max-device-width: 480px)
     {
         .descriptifs
         {
@@ -937,7 +935,6 @@
 /* FIN THEME */
 
 /* DEBUT CONFERENCE */
-
     .titre_conference
     {
         margin-top: 25px;
@@ -961,12 +958,12 @@
     }
     .red_conf
     {
-        font-weight: none;
+        font-weight: normal;
         color: #D43F34;
     }
     strong
     {
-        font-weight: none;
+        font-weight: normal;
     }
     .logo_lja
     {
@@ -981,17 +978,17 @@
         font-size: 1.5em;
         text-align: justify;
     }
-    .bann_conf_container
+    /*    .bann_conf_container
     {
         display:flex;
         justify-content: center;
-        border: 0 10%;
+        margin: 0 10%;
     }
     .banniere_conf
     {
         border-left: 10%;
         width: 80%;
-    }
+    }*/
     .semi_titre_conference
     {
         margin-top: 2%;
@@ -1140,7 +1137,6 @@
             {
                 min-width: 70px;
                 font-size:0.8em;
-                padding:none;
             }
             .tableau
             {
@@ -1199,7 +1195,7 @@
             text-align: center;
             margin-top: 50px;
             margin-bottom:50px;
-            border: 0% 10%;
+            /*border: 0% 10%;*/
         }
         .map
         {
@@ -1244,7 +1240,7 @@
             }
             .conteneur_tableau
             {
-                justify-content: left;
+                /*justify-content: left;*/
             }
         }
         footer
