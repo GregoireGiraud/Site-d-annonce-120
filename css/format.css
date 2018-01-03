@@ -1292,11 +1292,12 @@
     /* DEBUT PLANNING */
     .planning_remise_bracelets
     {
-
+        display: flex;
+        justify-content: center;
     }
     .planning_img
     {
-        width:100%;
+        width:75%;
     }
     /* FIN PLANNING */
 /* FIN INFOS PRATIQUES */
