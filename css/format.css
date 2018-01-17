@@ -884,9 +884,20 @@
             margin-bottom: 30px;
             margin-top: 50px;
         }
+        .nouvelles_affiches
+        {
+            display: flex;
+            margin: 0 16.67%;
+            margin-bottom: 25px;
+        }
+        .anciennes_affiches
+        {
+            display: flex;
+        }
         .affiches
         {
             display: flex;
+            flex-direction: column;
 
             margin: 5% 10%;
         }
@@ -895,13 +906,29 @@
             width:33.33%;
             height:100%;
         }
+        .deuxaff
+        {
+            width:50%;
+            height:100%;
+        }
         @media (max-width: 800px)
         {
-            .affiches
+            .anciennes_affiches
             {
                 flex-direction: column;
             }
+            .nouvelles_affiches
+            {
+                margin-left: 0px;
+                margin-right: 0px;
+                flex-direction: column;
+            }
             .affiche
+            {
+                height: 100%;
+                width: 100%;
+            }
+            .deuxaff
             {
                 height: 100%;
                 width: 100%;
